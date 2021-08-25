@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 *{
     margin: 0px;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
 }
 
 header img{
@@ -11,4 +17,7 @@ background-image: url('../img/lemon-pie\ 1.jpg');
 height: 300px;
 background-size: cover;
 background-attachment: fixed;
+color: #fff;
 }
+
+
