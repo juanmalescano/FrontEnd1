@@ -1,24 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0px;
+}
+
 body{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner{
+    background-image: url('../img/imgbanner.png') ;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header div{
     display: flex;
-    background-color: #E5E5E5;
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+header nav{
+    text-align: right;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+}
+
 .imgPrincipal {
  border-radius: 50%;
  width: 500px;
+  opacity: 0.8; 
 }
 
 h1,h2{
-    background-color: #C4C4C4;
-    color: #005677;
+    background-color: #7FBCF0;
+    color: #195CAE;
     line-height: 80px;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -33,24 +55,44 @@ h1{
 h2{
     font-size: 30px;
     padding-left: 20px ;
+    margin-bottom: 1%;
 }
 
-dl{
+dl,article{
     padding-left: 30px;
+    margin: 2%;
 }
 
 #datosPersonales{
     padding-top: 300px;
+    margin-bottom: 5%;
 }
 
 #datosPersonales ul li{
     margin-left: 30px;
 }
 
+#formacionAcademica,#experienciaLaboral{
+    margin-bottom: 5%;
+}
+
+#parrafos{
+   padding: 5%;
+}
+
+i{
+    color: white;
+}
+
 footer{
-    background-color: #005677;
+    background-color: #195CAE;
     text-align: center;
     line-height: 80px;
     text-transform: uppercase;
     color: white;
+}
+
+/* Pagina SOBRE MI*/
+section#sobremi p{
+    text-align: center;
 }
