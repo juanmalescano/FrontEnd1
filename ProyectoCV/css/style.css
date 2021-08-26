@@ -2,6 +2,7 @@
 
 *{
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -30,6 +31,8 @@ header nav a{
     text-decoration: none;
     color: white;
     padding: 2%;
+    text-transform: uppercase;
+    font-size:22px;
 }
 
 .imgPrincipal {
@@ -68,10 +71,6 @@ dl,article{
     margin-bottom: 5%;
 }
 
-#datosPersonales ul li{
-    margin-left: 30px;
-}
-
 #formacionAcademica,#experienciaLaboral{
     margin-bottom: 5%;
 }
@@ -85,7 +84,7 @@ i{
 }
 
 footer{
-    background-color: #195CAE;
+    background-color: #1E6ED0;
     text-align: center;
     line-height: 80px;
     text-transform: uppercase;
