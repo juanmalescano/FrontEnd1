@@ -1,0 +1,115 @@
+*{
+box-sizing: border-box;
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto', sans-serif;;
+}
+
+.descuento{
+    background-color: #1CD1B0;
+    height: 30px;
+}
+
+.descuento strong{
+    position: relative;
+    top: 20%;
+    left: 1%;
+}
+
+header{
+    background-color: #00669F;
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    box-shadow: 0px 5px 20px -5px black;
+    z-index: 1;
+}
+
+h1{
+    position: relative;
+    top: 20%;
+    left: 2%;
+    font-size: 50px;
+}
+
+article{
+    width: 25%;
+    height: 600px;
+    position: relative;
+    margin: 0px;
+    display: inline-block;
+    margin: 15% 3% 20%;
+}
+
+.principal{
+    width: 100%;
+}
+
+#batman{
+    background-image: url('../img/baticueva.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+#harley{
+    background-image: url('../img/colores.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+.imgCorazon{
+    position: absolute;
+    top:5%;
+    left: 5%;
+}
+
+.imgRadius{
+    border-radius: 50%;
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    height: 30%;
+}
+
+.sombraArticle{
+    box-shadow: 0px 4px 10px -5px black;
+}
+
+.radiusContenedorImg{
+   border-radius: 16px 16px 0px 0px;
+}
+
+article h2{
+    margin: 15% 5% 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+article div p{
+    padding: 3%;
+}
+
+button{
+    padding: 2% 8%;
+    border: 0px;
+    position: absolute;
+    left: 35%;
+    top: 85%;
+    margin-top: 5%;
+}
+
+footer,button{
+    background: #00669F;
+    color: white;
+    height: 40px;
+}
+
+footer p{
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+
+

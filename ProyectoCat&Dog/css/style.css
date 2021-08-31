@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+}
+
+.header__div{
+    background-color: black;
+    color: white;
+}
+
+.header__div__ul {
+    display: inline-flex;
+    
+}
