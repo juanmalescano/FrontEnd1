@@ -1,13 +1,21 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .header__div{
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    height: 30px;
+}
+
+.header__div ul li{
+    gap: 5px;
 }
 
 .header__div__ul {
-    display: inline-flex;
-    
+    display: inline-flex;  
 }

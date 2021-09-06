@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=ZCOOL+KuaiLe&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/fondo.jpg');
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 15vh;
+}
+
+h1{
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    color: white;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 80px;
+    color: #FF2C2B;
+}
+
+#proyectos{
+    height: 85vh;
+    padding: 5%;
+    padding-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+#divEspacio{
+    width: 25%;
+}
+
+#articles{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 85vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+article{
+    width: 20vw;
+    height: 40vh;
+    overflow: hidden;
+    border-radius: 2%;
+    border: #8F9395 solid 3px;
+}
+
+h2{
+    margin: 10px;
+    color: #FF2C2B;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+section article div:first-child{
+    height: 60%;
+    background-position: center;
+    background-size: cover;
+}
+
+#LemonPie div:first-child{
+background-image: url('../Proyecto LemonPie/img/lemon-pie\ 1.jpg');
+}
+#CatDog div:first-child{
+    background-image: url('../ProyectoCat&Dog/img/bowl-and-pet-daities-on-green-background\ 1.png');
+}
+#CV div:first-child{
+    background-image: url('../ProyectoCV/img/JM.png');
+    background-position: 50% 20%;
+}
+#Heroes div:first-child{
+    background-image: url('../ProyectoHeroes/img/batman.png');
+}
+
+
+footer{
+    text-align: center;
+    background: #0F0F27;
+    height: 6vh;
+    padding-top: 10px;
+    border-top: #8F9395 solid 5px;
+}
+
+footer a{
+      color: #FF2C2B;
+}
+
+footer a:first-child,
+footer a:last-child{
+    color: white;
+}
+
+i{
+    width: 2%;
+}
