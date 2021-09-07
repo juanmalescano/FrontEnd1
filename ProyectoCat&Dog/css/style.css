@@ -45,6 +45,16 @@ nav ul{
     padding-right: 1%;
 }
 
+nav a{
+    text-decoration: none;
+}
+
+nav a:active,nav a:current{
+    color:#F0A83E ;
+}
+
+/* BANNER */
+
 #banner{
     background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     background-repeat: no-repeat;
@@ -82,24 +92,158 @@ nav ul{
     padding: 3% 5%;
     font-weight: 500;
     font-size: 1.1rem;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
 
+/* PRODUCTOS DESTACADOS */
 #productosDestacados{
     padding: 5%;
     text-align: center;
 }
 
-#productosDestacados img:first-child{
+#patitaPrincipal{
     width: 10%;
 }
 
 h1{
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: bold;
     margin-bottom: 1%;
 }
 
 #articulos{
-display: flex;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
 }
+
+#articulos article{
+    width: 25%;
+}
+
+#articulos article img{
+    width: 100%;
+}
+
+#articulos article h4{
+    color: #3C2313;
+    font-size: 1.4rem;
+}
+
+#articulos article p{
+    color: #F0A83E;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* CONTACTANOS */
+#contactanos{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#contactanos h2{
+    text-align: center;
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#contactanos form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactanos input{
+    width: 30%;
+    padding: 1% ;
+    background-color: #3C2313;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 0.5% auto;
+}
+
+#contactanos input::placeholder{
+    color: white;
+}
+
+#contactanos div{
+    width: 30%;
+    text-align: center;
+}
+
+#contactanos button{
+    width: 30%;
+    padding: 2% 5%;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin-top: 8%;
+}
+
+#contactanos button[type="submit"]{
+   background-color: #F0A83E;
+}
+
+#contactanos button[type="reset"]{
+    background-color: #8A8787;
+ }
+
+ /* FOOTER */
+
+ #suscribite div:first-child{
+     height: 8vh;
+     background-color: #F0A83E;
+     display: flex;
+     justify-content: space-between;
+     color: white;
+     padding: 0.6%;
+     position: relative;
+ }
+
+ #suscribite div:first-child h2 {
+    width: 30%;
+    padding-top: 0.5%;
+    padding-left: 1%;
+ }
+
+ #suscribite div:first-child h2 img{
+    position: relative;
+    top: 2.5px;
+    margin-right: 2%;
+ }
+
+ #suscribite div form{
+     display: flex;
+     justify-content:flex-end;
+     width: 50%;
+     padding-right: 2%;
+ }
+
+ #suscribite div form input{
+    width: 45%;
+    padding: 2%;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-right: 2%;
+ }
+
+ #suscribite div form button{
+    padding: 2%;
+    color: white;
+    background-color: #3C2313;
+    border: none;
+    border-radius: 20px;
+ }
+
+ footer{
+     height: 20vh;
+     background-color: #3C2313;
+     color: white;
+     position: relative;
+ }
+
