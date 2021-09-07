@@ -4,6 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .divUp{
@@ -241,9 +242,46 @@ h1{
  }
 
  footer{
-     height: 20vh;
+     height: 43vh;
      background-color: #3C2313;
-     color: white;
+     display: flex;
+     flex-direction: column;
      position: relative;
+     padding-top: 1%;
+ }
+
+ #logoFooter{
+     position: absolute;
+     width: 15%;
+     right: 10%;
+     top:40%;
+ }
+
+ footer article{
+     position: relative;
+     margin-bottom: 2%;
+ }
+
+ #loc img,#tel img,#mail img{
+     position: relative;
+     top: 10%;
+     left: 10%;
+     width: 4%;
+ }
+
+ #loc div,#tel div,#mail div{
+    position: absolute;
+    top: 35%;
+    left: 15%; 
+    color: white;
+}
+
+
+ footer p{
+     background-color: black;
+     color: white;
+     text-align: center;
+     height: 4vh;
+     padding-top: 0.3%;
  }
 
