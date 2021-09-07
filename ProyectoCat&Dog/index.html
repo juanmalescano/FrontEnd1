@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="header__div">
+    <div class="divUp">
       Grandes ofertas en comederos
 
-      <ul type="none" class="header__div__ul">
+      <ul type="none" class="divUp_ul">
         <li>Español</li>
         <li>$ARG</li>
       </ul>
     </div>
     <header>
       <nav>
-        <img src="./img/Logo.png" alt="Logo" />
-        <ul>
+        <div>
+          <img src="./img/Logo.png" alt="Logo" />
+        </div>
+        <ul type="none">
           <li><img src="./img/pawprint_chiquita.png" alt="" />Categorías</li>
           <li><img src="./img/pawprint_chiquita.png" alt="" />Pets</li>
           <li><img src="./img/pawprint_chiquita.png" alt="" />Nosotros</li>
@@ -30,22 +32,19 @@
       </nav>
     </header>
     <main>
-      <section>
-        <img
-          src="./img/bowl-and-pet-daities-on-green-background 1.png"
-          alt="Banner Imagen"
-          title="Banner Principal"
-        />
-        <p>¡Es un placer tenerte aquí!</p>
-        <p>¡Comederos en descuento!</p>
-        <p>COMEDEROS</p>
+      <section id="banner">
+        <div>
+          <h2>¡Es un placer tenerte aquí!</h2>
+          <p>¡Comederos en descuento!</p>
+          <button>COMEDEROS</button>
+        </div>
       </section>
-      <section>
+      <section id="productosDestacados">      
         <img src="./img/pawprint 1.png" alt="Imagen Patita" />
         <h1>Productos Destacados</h1>
-        <p>Comederos - Accesorios - Comida</p>
-
-        <article>
+        <p>Comederos    -    Accesorios   -   Comida</p>
+        <section id="articulos">
+           <article>
           <img src="./img/churrasquito.png" alt="Imagen de churrasquito" />
           <h5>Juguete Churrasquito</h5>
           <p>$150</p>
@@ -60,6 +59,7 @@
           <h5>Juguete Huesito</h5>
           <p>$650</p>
         </article>
+        </section>  
       </section>
       <section>
         <h2>Contáctanos</h2>
