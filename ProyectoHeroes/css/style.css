@@ -38,7 +38,7 @@ article{
     position: relative;
     margin: 0px;
     display: inline-block;
-    margin: 15% 3% 20%;
+    margin-bottom: 2%;
 }
 
 section{
@@ -46,6 +46,7 @@ section{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding: 5%;
 }
 
 #batman{
@@ -64,6 +65,20 @@ section{
 
 #joker{
     background-image: url('../img/fondojoker.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+#superman{
+    background-image: url('../img/fondosuper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+}
+
+#mujerma{
+    background-image: url('../img/fondomujer.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
@@ -95,7 +110,7 @@ section{
 article h2{
     margin: 15% 5% 5%;
     text-align: center;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 article div p{
@@ -122,5 +137,41 @@ footer p{
     top: 25%;
     left: 1%;
 }
+
+@media (max-width: 768px){
+    article{
+        width: 300px;
+        height: 550px;
+        margin: 5% 0px 5%;
+    }
+    
+    .imgRadius{
+        height: 25%;
+        left: 30%;
+        top: 32%;
+    }
+
+    article div p{
+       font-size: 13px;
+    }
+    article div h2{
+        margin-bottom:0px;
+     }
+}
+
+@media (max-width: 425px){
+ 
+    .imgRadius{
+        height: 25%;
+        left: 33%;
+        top: 32%;
+    }
+
+    article div h2{
+       font-size: 25px;
+       margin-bottom: 1px;
+    }
+}
+
 
 
