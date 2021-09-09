@@ -1,0 +1,112 @@
+/* declaro variables */
+:root{
+    --txt-color: red;
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 14vh;
+    padding: 1%;
+    justify-content: space-between;
+}
+
+header img{
+    width: 15%;
+}
+
+nav{
+    width: 80%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: right;
+    gap: 3%;
+    padding-top: 2.5%;
+    padding-right: 1%;
+}
+
+section{
+    height: 85vh;
+    display: flex;
+    padding: 5% 3%;
+}
+
+section div:first-child{
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat; 
+    background-size:contain;
+    width: 50%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+section div:first-child h2{
+    text-align: left;
+    padding-top: 3%;
+    padding-left: 3%;
+    color:var(--txt-color);
+    font-size: 2.8rem;
+}
+
+section div:first-child h2 span{
+    color: white;
+}
+
+section div:last-child{
+    width: 50%;
+    padding-left: 5%;
+    position: relative;
+}
+
+section div:last-child h2{
+    text-align: center;
+    color:var(--txt-color);
+    font-size: 3rem;
+    margin-bottom: 15%;
+}
+
+section div:last-child h3{
+    font-size: 2rem;
+    margin-left: 6%;
+    margin-bottom: 2%;
+}
+
+section div:last-child li{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+section div:last-child img{
+    position: absolute;
+    top: 35%;
+    right: 30%;
+    width: 15%;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 18vh;
+    padding: 1.5% 1% 1.5% 0.3%;
+    justify-content: space-between;
+}
+
+footer ul li{
+    margin: 15%;
+}
+
+footer img{
+    width: 15%;
+}
