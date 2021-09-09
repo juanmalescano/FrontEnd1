@@ -26,7 +26,8 @@
 
 header{
     background: #F0A83E;
-    height: 6vh;
+    height: 8vh;
+    padding-top: 0.4%;
 }
 
 nav{
@@ -116,10 +117,11 @@ h1{
     padding: 3%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #articulos article{
-    width: 25%;
+    width: 35vh;
 }
 
 #articulos article img{
@@ -157,7 +159,7 @@ h1{
 }
 
 #contactanos input{
-    width: 30%;
+    width: 30vw;
     padding: 1% ;
     background-color: #3C2313;
     color: white;
@@ -171,7 +173,7 @@ h1{
 }
 
 #contactanos div{
-    width: 30%;
+    width: 30vw;
     text-align: center;
 }
 
@@ -285,3 +287,53 @@ h1{
      padding-top: 0.3%;
  }
 
+@media (max-width: 425px){
+    div.divUp{
+        display: none;
+    }
+
+    #banner div:first-child{
+        position: absolute;
+        top: 40%;
+        left: 12%;
+        width: 80vw;
+        text-align: right;
+    }
+
+    #banner div:first-child h2{
+        font-size: 1.8rem;
+    }
+
+    #productosDestacados img{
+        width: 30%;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    nav div img{
+        position: absolute;
+        top: 2%;
+    }
+
+    #articulos article h4{
+        font-size: 1rem;
+    }
+    #contactanos input{
+        width: 60vw;
+        padding: 2% ;
+    }
+
+    #contactanos div{
+        width: 100vw;
+        text-align: center;
+    }    
+
+    #contactanos button{
+        width: 45%;
+        font-size: 1rem;
+    }
+
+   
+}
