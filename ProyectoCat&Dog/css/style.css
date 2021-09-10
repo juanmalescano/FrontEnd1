@@ -195,7 +195,7 @@ h1{
     background-color: #8A8787;
  }
 
- /* FOOTER */
+/* SUSCRIBITE */
 
  #suscribite div:first-child{
      height: 8vh;
@@ -243,6 +243,7 @@ h1{
     border-radius: 20px;
  }
 
+ /* FOOTER */
  footer{
      height: 43vh;
      background-color: #3C2313;
@@ -335,5 +336,49 @@ h1{
         font-size: 1rem;
     }
 
-   
-}
+    #suscribite div:first-child{
+        height: 15vh;
+        flex-wrap: wrap;
+    }
+
+    #suscribite div:first-child h2, #suscribite div form input{
+        width: 100%;
+    }
+    #suscribite div form{
+        width: 100%;
+        padding: 1vh;
+    }
+
+    footer{
+        height: 50vh;
+    }
+
+    footer article{
+        margin-top: 2%;
+    }
+
+    #mail{
+        margin-bottom: 10%;
+    }
+
+    #loc img,#tel img,#mail img{
+        position: relative;
+        top: 50%;
+        left: 20%;
+        width: 15%;
+    }
+
+    #logoFooter{
+        position: absolute;
+        width: 30%;
+        right: 35%;
+        top:5%;
+    }
+
+    #loc div,#tel div,#mail div{
+        position: absolute;
+        top: 65%;
+        left: 40%; 
+        color: white;
+    }
+ }
